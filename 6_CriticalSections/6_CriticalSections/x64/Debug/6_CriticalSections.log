@@ -1,0 +1,3 @@
+﻿  main.cpp
+E:\Univer\OS\6_CriticalSections\6_CriticalSections\main.cpp(29,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  6_CriticalSections.vcxproj -> E:\Univer\OS\6_CriticalSections\x64\Debug\6_CriticalSections.exe
