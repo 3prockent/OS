@@ -3,6 +3,9 @@
 #include <mutex>
 #include <time.h>
 
+const int kMaxMatrixSize = 1000;
+const int kNumIterations = 10000000;
+
 const int kMatrixARows = 3;
 const int kMatrixBRows = 4;
 const int kMatrixBCols = 3;
@@ -12,9 +15,6 @@ int matrix_a[kMaxMatrixSize][kMaxMatrixSize];
 int matrix_b[kMaxMatrixSize][kMaxMatrixSize];
 int matrix_c[kMaxMatrixSize][kMaxMatrixSize];
 
-
-const int kMaxMatrixSize = 1000;
-const int kNumIterations = 10000000;
 std::atomic<int> counter = 0;
 
 void MatrixMultiply(int row_index, int col_index, int matrix_size) {
